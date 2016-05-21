@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]){
 			cout << "Ingrese la palabra, frase, oracion, cancion o lo que ud desee" << endl;
 			cin.ignore();
 			cin.getline (cadena,144);
-			cout << "LA CADENA ES " << (esPanagrama(cadena) ? "" : "NO ") << "PANGRAMAS" << endl;
+			cout << "LA CADENA ES " << (esPanagrama(cadena) ? "" : "NO ") << " UN PANGRAMA" << endl;
 		} else if (opcion == 2){
 			int continuar = 0;
 			int totalCadenas = 0;
